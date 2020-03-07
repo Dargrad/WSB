@@ -7,7 +7,24 @@
 </head>
 <body>
     <?php
-    echo "text";
-    ?>
-</body>
-</html>
+    echo "text<br>";
+ $name ="Kowalski";
+ $surename ="Janusz<br>";
+    
+    
+
+    echo $name, "   " ,$surename;
+
+    //Komentarz
+
+    echo <<<SHOW
+    <hr>
+        Imię: $name<br>
+        Nazwisko: $surename
+        <hr>
+SHOW;
+        ?>
+        </body>
+        </html>
+    
+
